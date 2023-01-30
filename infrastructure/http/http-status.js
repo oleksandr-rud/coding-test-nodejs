@@ -1,3 +1,6 @@
+/**
+ * @description HttpStatus - a collection of HTTP status codes and their descriptions.
+ */
 const HttpStatus = {
     OK: 200,
     BAD_REQUEST: 400,

@@ -1,5 +1,9 @@
 const Route = require('./route')
 
+/**
+* @description The Router class is responsible for dispatching incoming requests to the appropriate Route instances.
+* @class
+*/
 class Router {
     constructor() {
         this.routes = new Map();

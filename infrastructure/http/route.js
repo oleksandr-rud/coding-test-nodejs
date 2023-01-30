@@ -1,3 +1,6 @@
+/**
+ * @description The Route class is a representation of a single route in the application.
+ */
 class Route {
     constructor(method, path, handler) {
         this.method = method;

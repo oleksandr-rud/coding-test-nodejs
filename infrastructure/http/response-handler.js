@@ -1,3 +1,6 @@
+/**
+ * @description The ResponseHandler class is responsible for sending appropriate responses to the client based on the request processing outcome.
+ */
 class ResponseHandler {
     static async handleSuccess(res, data) {
         res.writeHead(HttpStatus.OK, { 'Content-Type': 'application/json' });
