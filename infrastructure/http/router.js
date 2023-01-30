@@ -1,4 +1,8 @@
-const Route = require('./route')
+const HttpStatus = require('./http-status');
+
+const Route = require('./route');
+const { ResponseError } = require('./exceptions')
+
 
 /**
 * @description The Router class is responsible for dispatching incoming requests to the appropriate Route instances.

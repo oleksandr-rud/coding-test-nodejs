@@ -1,3 +1,5 @@
+const HttpStatus = require('./http-status');
+
 /**
  * @description The ResponseHandler class is responsible for sending appropriate responses to the client based on the request processing outcome.
  */
